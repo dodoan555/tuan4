@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    height: 800px;
+    width: 1089px;
+    background-color: aquamarine;
+    border: 3px solid rgb(107, 243, 79);
+    margin: auto;
+    padding: 0px;
+}
+nav{
+    height: 50px; 
+    width: 1083px;
+    background-color: rgb(197, 98, 74);
+    padding: 3px;
+}
+header{
+    height: 50px;
+    width: 1089px;
+    background-color: violet;
+}
+
+.content{
+    height: 400px;
+    width: 1089px;
+    background-color: rgb(56, 56, 151);
+}
+section{
+    height: 100%;
+    float: left;
+    background-color: rgb(194, 75, 75);
+    width: 60%;
+}
+aside{
+    display: block;
+    float: left;
+    height: 100%;
+    width: 40%;
+    background-color: rgb(167, 113, 48);
+}
+.col-6{
+    margin-top: 5px;
+    margin-left: 100px;
+}
+.input-box{
+    margin-top: 5px;
+    margin-left: 100px;
+}
+button{
+    margin-left: 25%;
+    width: 50%;
+}
+ul{
+    list-style: none;
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+li{
+    float: left;
+    width: 25%;
+    background-color: black;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+li:hover a{
+    color: red;
+}
+li:hover{
+    background-color: white;
+    cursor: pointer;
+
+}
+.seach{
+    background-color: aqua;
+    height: 100%;
+    width: 30%;
+    float: left;
+}
